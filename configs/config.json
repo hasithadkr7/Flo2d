@@ -1,0 +1,20 @@
+{
+  "output_dir" : "",
+  "raincell_dir" : "",
+  "inflow_dir" : "",
+  "outflow_dir" : "",
+
+  "res_mins" : "60",
+  "data_hours" : "120",
+
+  "kelani_basin_points_file" : "/home/hasitha/PycharmProjects/Flo2d/configs/kelani_basin_points_250m.txt",
+
+  "forecast_db_config" :
+      {
+        "host": "104.198.0.87",
+        "user": "root",
+        "password": "cfcwm07",
+        "db": "curw"
+      }
+
+}

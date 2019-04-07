@@ -1,0 +1,6 @@
+.idea
+venv
+input
+output
+configs/wrf_wrfout_d03_2019-03-31_18_00_00_rf
+raincell/inputs
