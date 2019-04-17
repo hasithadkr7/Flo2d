@@ -4,3 +4,8 @@ input
 output
 configs/wrf_wrfout_d03_2019-03-31_18_00_00_rf
 raincell/inputs
+configs/kelani_basin_points_250m.csv
+configs/klb-wgs84/
+configs/wrf_wrfout_d03_2017-12-19_18_00_00_rf
+configs/wrf_wrfout_d03_2018-01-01_18_00_00_rf
+

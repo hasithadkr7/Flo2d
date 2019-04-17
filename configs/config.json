@@ -1,5 +1,5 @@
 {
-  "output_dir" : "",
+  "output_dir" : "/home/hasitha/PycharmProjects/Flo2d/output",
   "raincell_dir" : "",
   "inflow_dir" : "",
   "outflow_dir" : "",
@@ -7,7 +7,22 @@
   "res_mins" : "60",
   "data_hours" : "120",
 
+
+  "forward" : "3",
+  "backward" : "2",
+
+  "rain_cell_file" : "RAINCELL.DAT",
+  "rain_file" : "RAIN.DAT",
+
   "kelani_basin_points_file" : "/home/hasitha/PycharmProjects/Flo2d/configs/kelani_basin_points_250m.txt",
+
+  "kelani_lower_basin_shp_file" : "/home/hasitha/PycharmProjects/Flo2d/configs/klb-wgs84/klb-wgs84.shp",
+
+  "wrf0_forecasted_0d" : "fb575cb25f1e3d3a07c84513ea6a91c8f2fb98454df1a432518ab98ad7182861",
+
+  "wrf0_forecasted_1d" : "9b18ffa16b251319ad1a931c4e1011b4ce42c874543def69b8a4af76d7b8f9fc",
+
+  "wrf0_forecasted_2d" : "e0e9cdc2aa4fef7178af08b987f4febc186d19397be744525fb6263815ca5fef",
 
   "forecast_db_config" :
       {
@@ -15,6 +30,23 @@
         "user": "root",
         "password": "cfcwm07",
         "db": "curw"
+      },
+  "observed_db_config" :
+      {
+        "host": "104.198.0.87",
+        "user": "root",
+        "password": "cfcwm07",
+        "db": "curw"
+      },
+
+  "obs_stations" :
+      {
+        "Kottawa North Dharmapala School": [79.95818, 6.865576, "Leecom", "wrf_79.957123_6.859688"],
+        "IBATTARA2": [79.919, 6.908, "CUrW IoT", "wrf_79.902664_6.913757"],
+        "Malabe": [79.95738, 6.90396, "A&T Labs", "wrf_79.957123_6.913757"],
+        "Kotikawatta": [80.802551, 6.890585, "Leecom", "wrf_80.802551_6.890585"],
+        "Mulleriyawa": [79.941176, 6.923571, "A&T Labs", "wrf_79.929893_6.913757"],
+        "Orugodawatta": [79.87887, 6.943741, "CUrW IoT", "wrf_79.87887_6.943741"]
       }
 
 }
